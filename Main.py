@@ -25,3 +25,4 @@ for item in input_data.split(', '):
   elif item.lstrip("-").isnumeric():
     data.append(int(item))
 print(selectionSort(data, len(data)))
+
